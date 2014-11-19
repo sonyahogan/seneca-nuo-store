@@ -1,0 +1,43 @@
+{
+  "name": "seneca-nuo-store",
+  "version": "0.1.10",
+  "description": "Seneca data store plugin for NuoDB",
+  "main": "nuo-store.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonyahogan/seneca-nuo-store"
+  },
+  "keywords": [
+    "seneca",
+    "plugin",
+    "store",
+    "nuo",
+    "nuodb",
+    "json"
+  ],
+  "author": "Sonya Hogan @sonyahogan",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "db-nuodb": "~2.0.2",
+    "lodash": "^2.4.1",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "async": "~0.9.0",
+    "seneca": "~0.5.20",
+    "mocha": "~1.20.1",
+    "seneca-store-test": "~0.2.2"
+  },
+  "peerDependencies": {
+    "seneca": "*"
+  },
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "nuo-store.js"
+  ]
+}
